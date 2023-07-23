@@ -21,5 +21,5 @@ class OrderAdmin(admin.ModelAdmin):
 
 @admin.register(Statistics)
 class StatisticsAdmin(admin.ModelAdmin):
-    list_display = ('total_orders', 'male_count', 'female_count')
+    list_display = ('total_orders',)
     

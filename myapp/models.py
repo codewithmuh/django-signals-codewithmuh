@@ -22,5 +22,3 @@ class Order(models.Model):
 
 class Statistics(models.Model):
     total_orders = models.PositiveIntegerField(default=0)
-    male_count = models.PositiveIntegerField(default=0)
-    female_count = models.PositiveIntegerField(default=0)
